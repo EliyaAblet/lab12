@@ -16,7 +16,6 @@ class Television:
     def power(self) -> None:
        """
        This method should be used to turn the TV on/off.
-       :return: None
        """
        if not self.__tv_status:
             self.__tv_status = True
